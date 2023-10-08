@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-color: black;
+}
+img{
+    width: 300px;
+}
+button{
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    box-shadow: 2px 2px 5px white;
+    color: white;
+    font-size: 20px;
+
+}
+button:active{
+    background-color: white;
+    color: black;
+    
+}
+.btn{
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    box-shadow: 2px 2px 5px black;
+    color: black;
+    font-size: 20px;
+}
+.btn:active{
+    background-color: black;
+    color: white;
+}
